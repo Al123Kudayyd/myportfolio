@@ -1,0 +1,22 @@
+import Main from './components/Main';
+import Nav from './components/Nav';
+import Model from './components/Model'
+import Projects from './components/Projects';
+import { useState } from 'react';
+
+
+
+function App() {
+
+  const [openProjectModal, setOpenProjectModel] = useState(false)
+
+  return (
+    <div className=" ">
+      <Nav button={<div>PROJECT</div>} />
+      <Main />
+      <Projects />
+    </div>
+  );
+}
+
+export default App;
