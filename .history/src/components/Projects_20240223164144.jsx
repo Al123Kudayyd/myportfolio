@@ -54,7 +54,7 @@ function Projects({ button }) {
                             <img className='rounded-xl' src={project1b} alt="" />
                             <img  className='rounded-xl' src={project1c} alt="" />
                         </div>
-                        <div className='w-4/4 space-y-2'>
+                        <div className='w-3/4 space-y-2'>
                             <img className='rounded-xl' src={project2} alt="" />
                             <img className='rounded-xl' src={project2b} alt="" />
                             <img className='rounded-xl' src={project2c} alt="" />

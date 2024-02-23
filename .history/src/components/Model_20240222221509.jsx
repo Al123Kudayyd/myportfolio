@@ -6,7 +6,7 @@ import logo1 from '../assets/logo1.png'
 function Model({ btn }) {
   
   return (
-    <div className=' justify-center items-end relative mx-14 md:flex hidden'>
+    <div className='flex justify-center items-end relative mx-14'>
         <div className='shadow-2xl h-[500px] max-w-[400px]  w-screen absolute bottom-72 rounded-[20px] z-40 bg-black overflow-hidden md:max-w-[800px]'>
         <div className='text-gray-400 absolute right-10 top-8 cursor-pointer text-3xl hover:text-[#f4eedb] transition-all duration-300
         active:scale-[.85]'>{btn}

@@ -49,12 +49,12 @@ function Projects({ button }) {
                     <h1 className='text-2xl'>Projects I have worked on</h1>
                     <h3 className='text-md font-bold'>I'm ready to work with any business big or small.</h3>
                     <div className='mt-5 flex'>
-                        <div className='w-4/4 space-y-2 mr-2 '>
+                        <div className='w-3/4 space-y-2 mr-2 '>
                             <img className='rounded-xl' src={project1} alt="" />
                             <img className='rounded-xl' src={project1b} alt="" />
                             <img  className='rounded-xl' src={project1c} alt="" />
                         </div>
-                        <div className='w-4/4 space-y-2'>
+                        <div className='w-3/4 space-y-2'>
                             <img className='rounded-xl' src={project2} alt="" />
                             <img className='rounded-xl' src={project2b} alt="" />
                             <img className='rounded-xl' src={project2c} alt="" />

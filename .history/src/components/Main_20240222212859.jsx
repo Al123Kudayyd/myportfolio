@@ -11,20 +11,17 @@ import { LiaBarsSolid } from "react-icons/lia";
 function Main() {
     const [openModal, setOpenModal] = useState(false)
     
-    function showMe(){
-        setOpenModal(true)
-        alert('contact me via my email sammyahmed160@gmail.com')
-    }
+
     
   return (
     <div className='relative'>
     <div className='bg-[#f4eedb] relative h-screen w-screen'>
         <div className='-z-10 sm:pl-10 pl-5 pt-20 '>
-            <h1 className=''><span className='text-gray-400 font-extralight sm:text-4xl text-2xl'>I'M SAMMY AND I'M A</span>
-            <br /><span className='text-5xl sm:text-7xl'>frontend developer.</span></h1>
+            <h1 className=''><span className='text-gray-400 font-extralight text-4xl'>I'M SAMMY AND I'M A</span>
+            <br /><span className='text-7xl'>frontend developer.</span></h1>
             <button className='mt-20 border-gray-400 border-2 text-gray-400 py-2 px-8 hover:bg-gray-400 hover:text-[#f4eedb]
             transition-all duration-300'
-            onClick={showMe}>
+            onClick={() => setOpenModal(true)}>
                 Contact Me</button>
         </div>
         
@@ -33,7 +30,7 @@ function Main() {
         openModal && <Model btn={<LiaTimesSolid onClick={() => setOpenModal(false) } />} 
          /> 
     }
-    <div className='absolute top-[10%] right-0 text-2xl pl-5  m-3'>
+    <div className='absolute top-[10%] right-0 text-2xl  m-3'>
         <a href="" className='' ><FaFacebook className='cursor-not-allowed' /></a>
         <a href="https://uk.linkedin.com/in/sammy-al-khudayyd-17656b246"  className=''>
             <FaLinkedin className='cursor-pointer my-5' />

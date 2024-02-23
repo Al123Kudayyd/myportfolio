@@ -6,13 +6,13 @@ import logo1 from '../assets/logo1.png'
 function Model({ btn }) {
   
   return (
-    <div className=' justify-center items-end relative mx-14 md:flex hidden'>
-        <div className='shadow-2xl h-[500px] max-w-[400px]  w-screen absolute bottom-72 rounded-[20px] z-40 bg-black overflow-hidden md:max-w-[800px]'>
+    <div className='flex justify-center items-end relative mx-14'>
+        <div className='shadow-2xl md:h-[500px] max-w-500p  w-screen absolute bottom-72 rounded-[20px] z-40 bg-black overflow-hidden md:max-w-[800px]'>
         <div className='text-gray-400 absolute right-10 top-8 cursor-pointer text-3xl hover:text-[#f4eedb] transition-all duration-300
         active:scale-[.85]'>{btn}
          </div>
           <div className='flex flex-col items-center'>
-            <form className='flex flex-col items-center text-xl mt-20 '>
+            <form className='flex flex-col items-center text-xl mt-20 px-10 '>
               <h1 className='text-white mb-10 text-2xl'>G E T I N T O U C H</h1>
               <div className='flex justify-center items-center'>
                 <label className='flex flex-col justify-center w-[190px] text-gray-400'>Name

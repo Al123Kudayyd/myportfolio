@@ -22,15 +22,15 @@ function Projects({ button }) {
     
 
   return (
-    <div className='absolute top-0 left-[0%] mt-20 animate-fade '>
-        <div className='text-gray-400 absolute left-3/4 top-8 cursor-pointer text-3xl hover:text-black transition-all duration-300
+    <div className='absolute top-0 left-[25%] mt-20 animate-fade max-w-2xl'>
+        <div className='text-gray-400 absolute right-8 top-6 cursor-pointer text-3xl hover:text-black transition-all duration-300
         active:scale-[.85]'>{button}</div>
-        <div className='flex justify-center items-center w-screen'>
-            <div className='shadow-2xl bg-white w-[250px] h-[500px] md:w-[350px] md:h-[600px] rounded-l-2xl'>
+        <div className='flex justify-center items-center '>
+            <div className='shadow-2xl bg-white w-[350px] h-[600px] rounded-l-2xl'>
                 <div className='px-[40px] py-[76px] overflow-hidden'>
                     <h1 className='text-2xl'>Here's a bit about me.</h1>
                     <h3 className='text-md font-bold'>languages & framework's I have worked with:</h3>
-                    <div className='flex flex-wrap my-10 md:text-6xl text-lg lg:text-7xl'>
+                    <div className='flex flex-wrap my-10 text-7xl overflow-auto'>
                         <FaHtml5 className='text-[#FF5733]' />
                         <FaCss3Alt className='text-[#2965F1] mx-5' />
                         <IoLogoJavascript className='text-[#F5DE19]' />
@@ -44,17 +44,17 @@ function Projects({ button }) {
                 </div>
                 
             </div>
-            <div className='shadow-2xl bg-[#f4eedb] w-[400px] h-[500px] md:w-[500px] md:h-[600px] rounded-r-2xl overflow-auto animte-in'>
+            <div className='shadow-2xl bg-[#f4eedb] w-[500px] h-[600px] rounded-r-2xl overflow-auto animte-in'>
                 <div className='px-[40px] py-[76px]'>
                     <h1 className='text-2xl'>Projects I have worked on</h1>
                     <h3 className='text-md font-bold'>I'm ready to work with any business big or small.</h3>
                     <div className='mt-5 flex'>
-                        <div className='w-4/4 space-y-2 mr-2 '>
+                        <div className='w-1/2 space-y-2 mr-2 '>
                             <img className='rounded-xl' src={project1} alt="" />
                             <img className='rounded-xl' src={project1b} alt="" />
                             <img  className='rounded-xl' src={project1c} alt="" />
                         </div>
-                        <div className='w-4/4 space-y-2'>
+                        <div className='w-1/2 space-y-2'>
                             <img className='rounded-xl' src={project2} alt="" />
                             <img className='rounded-xl' src={project2b} alt="" />
                             <img className='rounded-xl' src={project2c} alt="" />

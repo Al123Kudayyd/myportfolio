@@ -11,10 +11,7 @@ import { LiaBarsSolid } from "react-icons/lia";
 function Main() {
     const [openModal, setOpenModal] = useState(false)
     
-    function showMe(){
-        setOpenModal(true)
-        alert('contact me via my email sammyahmed160@gmail.com')
-    }
+    f
     
   return (
     <div className='relative'>
@@ -24,7 +21,7 @@ function Main() {
             <br /><span className='text-5xl sm:text-7xl'>frontend developer.</span></h1>
             <button className='mt-20 border-gray-400 border-2 text-gray-400 py-2 px-8 hover:bg-gray-400 hover:text-[#f4eedb]
             transition-all duration-300'
-            onClick={showMe}>
+            onClick={() => setOpenModal(true)}>
                 Contact Me</button>
         </div>
         
