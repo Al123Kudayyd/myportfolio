@@ -7,7 +7,7 @@ module.exports = {
     "./src/components/Model.{js,jsx,ts,tsx}",
     "./src/components/Projects.{js,jsx,ts,tsx}",
     "./src/components/Modal.{js,jsx,ts,tsx}",
-    "./src/components/Reviews.{js,jsx,ts,tsx}"
+    "./src/components/Modal.{js,jsx,ts,tsx}"
   ],
   theme: {
     extend: {

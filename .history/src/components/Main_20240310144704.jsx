@@ -7,7 +7,6 @@ import Projects from './Projects';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeProjectModal } from '../redux/modalSlice';
 import { LiaBarsSolid } from "react-icons/lia";
-import Reviews from './Reviews';
 
 function Main() {
     const [openModal, setOpenModal] = useState(false)
@@ -28,7 +27,7 @@ function Main() {
             onClick={showMe}>
                 Contact Me</button>
         </div>
-        <Reviews />
+        
     </div>
     {
         openModal && <Model btn={<LiaTimesSolid onClick={() => setOpenModal(false) } />} 
